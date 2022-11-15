@@ -49,7 +49,7 @@ header .social-icon ul li {
    justify-content: space-evenly;
    align-items: center;
    z-index: 100;
-   position: absolute;
+   
    padding-top: 40px;
    left: 7%;
    
@@ -216,6 +216,9 @@ header .social-icon ul li {
       
       position: relative;
       width: 100%;
+      margin-top: -100px;
+      z-index: -10;
+     
       
       
       
@@ -752,3 +755,13 @@ header .social-icon ul li {
    font-size: 60px;
 }
 /* ===========extra */
+.sticky-top{
+   height: 90px;
+   background: rgb(39, 35, 35);
+   z-index: 1020;
+
+
+}
+.sticky-top .offcanvas .offcanvas-body li:hover a{
+   color: #FFC40C !important;
+}

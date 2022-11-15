@@ -8,4 +8,19 @@ $('.counter').counterUp({
 });
 
 
+// ===========Sticky to=================//
 
+$(document).ready(function(){
+   $(".after-carousel-section").waypoint(function (direction) {
+      if(direction == "down"){
+        
+         $(".its").addClass("sticky-top");
+      }
+      else{
+         $(".its").removeClass("sticky-top");
+      }
+      
+   });
+
+   var mixer = mixitup('.container');
+});
