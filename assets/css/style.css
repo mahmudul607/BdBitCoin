@@ -327,7 +327,7 @@ header .social-icon ul li {
    }
    .card-section .container .row .card-group .card img,
    .card-section .container .row .card-group .card .card-body{
-      z-index: 100;
+      z-index: 5;
    }
    .card-section .container .row .card-group .card span::after{
          background-color: rgba(0, 0, 0, 0.05);
