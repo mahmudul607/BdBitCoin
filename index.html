@@ -59,14 +59,15 @@
      
       <div class="nav-wrapper its">
          <div class="container row ">
-            <div class="logo col-md-3 col-sm-12">
-               <div class="nav-logo"><img src="assets/img/logo.png" alt=""></div>
-            </div>
-            <div class="col-md-6 col-sm-12">
+            <!-- <div class="logo col-md-3 col-sm-12"> -->
+               
+            <!-- </div> -->
+            <!-- <div class="col-md-6 col-sm-12"> -->
                <div class="nav-section">
+                  
                   <nav class="navbar navbar-expand-lg">
                      <div class="container-fluid">
-      
+                        <div class="nav-logo"><img src="assets/img/logo.png" alt=""></div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                            <span class="navbar-toggler-icon"></span>
@@ -78,7 +79,7 @@
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                            </div>
                            <div class="offcanvas-body">
-                              <ul id="navitems" class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                              <ul id="navitems" class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                  <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                  </li>
@@ -112,52 +113,59 @@
       
                            </div>
                         </div>
+                        <div class="btn-area d-flex">
+                           <div class="nav-btn btn1">
+                              <a class="btn-bg1 "><span class="fa-solid fa-vector-square"></span> widgets</a></div>
+                              <div class="nav-btn btn2">
+                              <a class="btn-bg2 "><span class="fa-solid fa-bitcoin-sign"></span> earn coin</a>
+                           </div>
+                        </div>
+
                      </div>
                   </nav>
                </div>
-            </div>
-            <div class="right-btn col-md-3 col-sm-12">
-               <div class="btn-area d-flex">
-                  <div class="nav-btn btn1">
-                     <a class="btn-bg1 "><span class="fa-solid fa-vector-square"></span> widgets</a></div>
-                     <div class="nav-btn btn2">
-                     <a class="btn-bg2 "><span class="fa-solid fa-bitcoin-sign"></span> earn coin</a>
-                  </div>
-               </div>
+            <!-- </div>  -->
+            <!-- <div class="right-btn col-md-3 col-sm-12"> -->
                
-            </div>
+               
+            <!-- </div> -->
          </div>
       </div> 
+
          <div class="carousel-section">
             <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
                <div class="carousel-inner">
                  <div class="carousel-item active">
                   <div class="bg-item1 bg-img"></div>
                    <div class="title-carousel1 carousel-caption d-none d-md-block">
-                     <div class="first"><h1><span>Secure</span> and <span>Easy</span> Way To <span>Trade</span></h1></div>
-                     <div class="first-1"><p>You cannot discover new oceans unless you have the courage to lose sight of the shore…and move on!</p></div>
-                     <div class="first-2">
-                        <button>Read More</button>
-                     </div>
+                     <div class="first" data-aos="fade-in" data-aos-duration="4000" data-aos-delay="400"><h1><span>Secure</span> and <span>Easy</span> Way To <span>Trade</span></h1></div>
+                     <div class="first-1" data-aos="fade-left" data-aos-delay="1000"><p>You cannot discover new oceans unless you have the courage to lose sight of the shore…and move on!</p></div>
+                     
+                        <div id="btn-all"  class="nav-btn" data-aos="fade-up" data-aos-delay="1500">
+                           <a class="btn-bg1 btn">Read More</a>
+                        </div>
+                     
                    </div>
                  </div>
                  <div class="carousel-item">
                   <div class="bg-item2 bg-img"></div>
                    <div class="title-carousel2 carousel-caption d-none d-md-block">
-                     <div class="second"><h1><span>Secure</span> and <span>Easy</span> Way To <span>Trade</span></h1></div>
-                     <div class="second-1"><p>You cannot discover new oceans unless you have the courage to lose sight of the shore…and move on!</p></div>
+                     <div class="second"><h2>The Most Trusted</h2></div>
+                     <div class="second-1"><h1>Digital Money Exchange</h1></div>
                      <div class="second-2">
-                        <button>Read More</button>
+                        <div id="btn-all"  class="nav-btn ">
+                           <a class="btn-bg1 btn">Read More</a>
+                        </div>
                      </div>
                    </div>
                  </div>
                  <div class="carousel-item">
                   <div class="bg-item3 bg-img"></div>
-                   <div class="title-carousel3 carousel-caption d-none d-md-block">
-                     <div class="third"><h1><span>Secure</span> and <span>Easy</span> Way To <span>Trade</span></h1></div>
-                     <div class="third-1"><p>You cannot discover new oceans unless you have the courage to lose sight of the shore…and move on!</p></div>
-                     <div class="third-2">
-                        <button>Read More</button>
+                   <div class="title-carousel1 carousel-caption d-none d-md-block">
+                     <div class="first"><h1>is an innovative </h1></div>
+                     <div class="first1"><p><span>Payment network</span><br>and a new kind of money</p></div>
+                     <div id="btn-all"  class="nav-btn">
+                        <a class="btn-bg1 btn">Read More</a>
                      </div>
                    </div>
                  </div>
@@ -273,7 +281,7 @@
       </div> <!--/. Container-->
    </div> <!--/.card-section-->
    <!-- Team or Group Work Section -->
-   <div class="team-work-section">
+   <div class="team-work-section" data-aos="fade-left" data-aos-delay="500">
       <div class="container">
          <div class="row">
             <div class="img col-md-6 col-sm-12"><img src="assets/img/team-on-work.png" alt="image" class="py-5" > </div>
@@ -776,7 +784,7 @@
             <h2>BitCoin and CryptoCurrency</h2>
             <h3>LATEST NEWS</h3>
          </div>
-         <div class="items">
+         <div class="items row">
             <div class="item col-md-4 col-sm-12">
                <div class="img"> <!--news carousel section right side-->
                   <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
@@ -853,8 +861,8 @@
                <span></span><span></span>
                <div id="btn-all"><a class="btn-bg1 btn">Read More</a></div>
             </div>
-            <div class="item col-md-4 col-sm-12">
-               <div class="img"><img src="assets/img/Blog1-500x340.jpg" alt=""></div>
+            <div class="item img-right col-md-4 col-sm-12">
+               <div class="img" id="right-img"><img src="assets/img/Blog1-500x340.jpg" alt=""></div>
                <h4>Exchange rate of bitcoin</h4>
                <div class="dc">
                   <div class="date">November 15, 2022</div>
@@ -874,7 +882,7 @@
          <h3>BitCoin</h3>
          <h1>Calculator</h1>
       </div>
-      <div class="calculator">
+      <div class="calculator row">
         
          <div class="coin-converter-section col-md-7 col-sm-12" >
             
@@ -911,47 +919,206 @@
       </div>
     </section>
     <!-- =========/. BitCoin Calculator -->
+
+    <!-- ==============Team Member Section ===========-->
+    <section class="team-members">
+      <div class="container">
+         <div class="title-section">
+            <h1>Meet OUR</h1>
+            <h2>Team Members</h2>
+         </div>
+         <!-- <div class="row"> -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+               <div class="col">
+                 <div class="t-card h-100">
+                   <div class="tc-img"><img src="assets/img/khaldun.webp" class="card-img-top" alt="..."></div>
+                   <div class="t-card-body">
+                     <h5 class="t-card-title">Khaldun</h5>
+                     <p class="t-card-text">This is a wider card.</p>
+                   </div>
+                   <div class="t-card-footer">
+                       <ul><li><i class="fa-brands fa-twitter" title="twitter"></i></li>
+                        <li><i class="fa-brands fa-facebook-f" title="Facebook"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in" title="Linkedin"></i></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="t-card h-100">
+                   <div class="tc-img"><img src="assets/img/khawarizmi.jpg" class="card-img-top" alt="..."></div>
+                   <div class="t-card-body">
+                     <h5 class="t-card-title">khawarizmi</h5>
+                     <p class="t-card-text">This card has supporting.</p>
+                   </div>
+                   <div class="t-card-footer">
+                     <ul><li><i class="fa-brands fa-twitter" title="twitter"></i></li>
+                        <li><i class="fa-brands fa-facebook-f" title="Facebook"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in" title="Linkedin"></i></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="t-card h-100">
+                   <div class="tc-img"><img src="assets/img/Einstein_patentoffice.jpg" class="card-img-top" alt="..."></div>
+                   <div class="t-card-body">
+                     <h5 class="t-card-title">Einstein</h5>
+                     <p class="t-card-text">This is a wider card.</p>
+                   </div>
+                   <div class="t-card-footer">
+                     <ul><li><i class="fa-brands fa-twitter" title="twitter"></i></li>
+                        <li><i class="fa-brands fa-facebook-f" title="Facebook"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in" title="Linkedin"></i></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+             </div>
+         <!-- </div> -->
+      </div>
+    </section>
+    <!-- ==============/. Team Member Section ===========-->
+    <section>
+      <div class="buyBitCoin">
+            <div class="container">
+            <div class="row">
+               <div class="right col-md-6 col-sm-12">
+                  <div class="title">
+                     <h2>Presentations may vary</h2>
+                     <h1>THE RESULT IS THE SAME!</h1>
+                  </div>
+                  <div class="google-map">
+                     <img src="assets/img/Blog-2-500x340.jpg" alt="">
+                    
+                  </div>
+               </div>
+               <div class="left col-md-6 col-sm-12">
+                  <div class="accordion">
+                     <h2>Introduction to</h2>
+                     <h1> BUYING BITCOIN</h1>
+                     <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button active2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Get Bitcoin through several ways
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Educate yourself about Bitcoin
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Choose your Wallet for using mobile or pc
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingFour">
+                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                               Spend bitcoin by Making payments
+                             </button>
+                           </h2>
+                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                             <div class="accordion-body">
+                               <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                             </div>
+                           </div>
+                         </div>
+                         <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingFive">
+                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                               Accounting and taxes
+                             </button>
+                           </h2>
+                           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                             <div class="accordion-body">
+                               <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                             </div>
+                           </div>
+                         </div>
+                         <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingSix">
+                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                               Gain Visibility Using the bitcoin logo
+                             </button>
+                           </h2>
+                           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                             <div class="accordion-body">
+                               <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                             </div>
+                           </div>
+                         </div>
+                      </div>
+                  </div>
+               </div>
+            </div>   <!--row-->
+            </div> <!--Container-->
+         </div>
+      </div>
+    </section>
+
+
+
+
+
    </div> <!-- /. Main-Wrapper-->
    
    
-       
+      
+   
 
+
+
+
+
+<!-- google map script -->
+   
    <!-- Jquery linked -->
    <script src="assets/vendors/vjs/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-   <!-- waypoints -->
-   <script src="assets/vendors/vjs/jquery.waypoints.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-
+  
+      <!-- waypoints -->
+      <script src="assets/vendors/vjs/jquery.waypoints.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
    <!-- Counter up -->
    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
    <!--Animation Aos  -->
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-
    <!-- Bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
-
-     
+  
    <!-- Carousel Plug in js Linked -->
    <script src="assets/vendors/vjs/owl.carousel.min.js"></script>
-      
-      
-     
-      
-  
-   
-
-      
-      
     
       <!-- Aos Animation js linked -->
-      
-      
-      
-
       <script>
-         AOS.init();
+         
       </script>
       <!-- Main Js Linked -->
       <script src="assets/js/main-script.js"></script>

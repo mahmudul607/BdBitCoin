@@ -1,4 +1,6 @@
 
+
+
 $('.counter').counterUp({
    
    useEasing: true,
@@ -26,3 +28,7 @@ $(document).ready(function(){
 });
 
 // ==========For calculator==========
+AOS.init();
+
+//  =============Accordion============//
+
