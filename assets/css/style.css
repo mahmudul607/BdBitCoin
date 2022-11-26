@@ -999,8 +999,8 @@ section{
    position: relative;
    z-index: 100;
 }
-.buyBitCoin .left button{
-   justify-content: space-between;
+.buyBitCoin .left button span{
+   padding-left: 10px;
 }
 .buyBitCoin .left button::before{
       content: "+";
@@ -1019,19 +1019,120 @@ section{
    
    background-color: #FFC40C;
 }
-.buyBitCoin .left .active2::before {
-   content: "-";
-   color: red;
-   position: relative;
-   z-index: 101;
-   font-size: 30px;
-   background-color: rgb(40, 39, 39);
-   border-radius: 50%;
-   height: 40px;
-   width: 40px;
-   padding-left: 14px;
-}
+
 .accordion-button:not(.collapsed){
-   color: rgb(175, 18, 71) !important;
+   /* color: rgb(175, 18, 18) !important; */
    
+   
+}
+.accordion-button:not(.collapsed)::before{
+   content: "-" !important;
+   padding-left: 14px !important;
+   background-color: rgb(46, 40, 40) !important;
+   color: red; 
+}
+
+/* ========TESTIMONIALS Style========= */
+
+.testimonial .title{
+   text-align: center;
+   padding-bottom: 100px;
+}
+.testimonial .ts-carousel{
+   padding-top: 50px;
+}
+
+.testimonial .ts-carousel .owl-carousel .item img{
+   margin: auto;
+   overflow: hidden;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   
+}
+.testimonial .ts-carousel .owl-carousel .item h4{
+   padding-top: 70px;
+}
+.testimonial .ts-carousel .owl-carousel .owl-nav  span{
+   display: none;
+}
+.testimonial .ts-carousel .owl-carousel .owl-nav .owl-prev::before{
+   
+   content: "←";
+   font-size: 40px;
+   font-weight: 900;
+   
+}
+.testimonial .ts-carousel .owl-carousel .owl-nav .owl-next::before{
+   
+   content: "→";
+   font-size: 40px;
+   font-weight: 900;
+   
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: none !important;
+	color: yellow !important;
+	text-decoration: none;
+}
+.testimonial{
+   background: linear-gradient(rgb(63, 44, 44,0.9), rgb(58, 55, 55,0.9)),url(bg-img/carousel2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 30px;
+   color: white;
+}
+/* =============Risk-Section============ */
+
+.risk-section{
+   display: flex;
+   position: relative;
+}
+.risk-section .left blockquote h5{
+   padding-top: 130px;
+   padding-left: 50px;
+   width: 300px;
+}
+.risk-section .left blockquote p{
+  
+   padding-left: 50px;
+   width: 300px;
+}
+.risk-section .left blockquote span{
+   padding-top: 2px;
+}
+.risk-section .left blockquote{
+   width: 360px;
+   float: right;
+   padding-top: 100px;
+   color: white;
+}
+
+.risk-section .left blockquote::before{
+   content: "";
+   background: black;
+   height: 350px;
+   width: 350px;
+   border-radius: 50%;
+   position: absolute;
+   border: 5px solid yellow;
+   z-index: -1;
+   padding-left: 0px;
+
+}
+
+.risk-section .left blockquote::after {
+	border-style: solid;
+	border-color: transparent;
+	content: "";
+	height: 0;
+	margin: auto;
+	opacity: 0.97;
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	top: 0;
+	width: 0;
+   z-index: 3;
 }
