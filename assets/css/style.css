@@ -886,6 +886,10 @@ header .social-icon ul li {
    border: 2px solid black;
    background: linear-gradient(rgb(255, 196, 12,0.2),rgb(255, 196, 12,0.2));
 }
+#converter1{
+   margin-top: 30px;
+   margin-left: 10px;
+}
 .calculator .converter-form .converter-area-cc span,.calculator .converter-form .converter-area-cc select{
    width: 85px;
    padding: 12px;

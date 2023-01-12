@@ -958,18 +958,21 @@
                   </div>
                   <div class="main-cal">
                      <div class="converter-area-cc">
-                        <div class="input item"><input type="text" value="0" id="btc-amount" class="form-control" ></div>
-                        <div class="text item" id="clk"><span>BTC</span> </div>
+                        <div class="input item"><input type="number" value="0" id="inPut" onclick="first()" oninput="first()" class="form-control" ></div>
+                        <select name="CurrencyConverter" id="converter1" onchange="first()" oninput="first()" onclick="first(0)">
+                        <option class="text item" value="BTC">BTC</option>
+                        </select>
+                        <!-- <div ><span>BTC</span> </div> -->
                      </div>
                      <div class="converter-area-cc">
-                        <div class="input item"><input type="text" id="usd"></div>
+                        <div class="input item"><input type="text" id="outPut" onclick="first()" oninput="first()"></div>
                         <div class="select-item item">
-                           <select class="form-select form-select-sm " aria-label=".form-select-sm example" id="selector">
-                              <option selected >USD</option>
-                              <option value="1">EUR</option>
-                              <option value="2">CNY</option>
-                              <option value="3">GBP</option>
-                              <option value="4">INR</option>
+                           <select name="CurrencyConverter2" class="form-select form-select-sm " aria-label=".form-select-sm example" id="converter2" onchange="first()"  oninput="first()" onclick="first(0)">
+                              <option selected value="USD" >USD</option>
+                              <option value="EUR">EUR</option>
+                              <option value="CNY">CNY</option>
+                              <option value="GBP">GBP</option>
+                              <option value="INR">INR</option>
                            </select>
                         </div>
                      </div>
@@ -1262,7 +1265,7 @@
                </div> -->
                <div class="col-md-9 col-sm-12 ">
                   <form action="">
-                     <input type="email" class="input-box">
+                     <input type="email" class="input-box" placeholder="Enter your Email to get latest update from us" style="text-align: center;">
                      <input type="submit" id="btn-all" class="btn-bg1 btn">
                   </form>
                </div>

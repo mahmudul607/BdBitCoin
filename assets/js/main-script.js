@@ -53,6 +53,34 @@ $('.owl-carousel').owlCarousel({
 
 //converter
 
+function first(){
+
+   var input5 = document.getElementById("inPut").value;
+   var outPut5 = document.getElementById("outPut");
+   outPut5.value;
+   if(document.getElementById("converter1").value == "BTC"){
+
+      if(document.getElementById("converter2").value == "USD"){
+         outPut5.value = input5 * 17452.8;
+      }
+
+     else if(document.getElementById("converter2").value == "EUR"){
+         outPut5.value = input5 * 16237.9;
+      }
+     else if(document.getElementById("converter2").value == "CNY"){
+         outPut5.value = input5 * 118155;
+      }
+    else  if(document.getElementById("converter2").value == "GBP"){
+         outPut5.value = input5 * 14370.4;
+      }
+      else  if(document.getElementById("converter2").value == "INR"){
+         outPut5.value = input5 * 1424990;
+      }
+
+      
+
+   }
+}
 
 
 
