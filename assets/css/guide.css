@@ -1,0 +1,12 @@
+.top-of-Guide{
+    background-image: url("./bg-img/counter-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+#bitcoin-guide{
+    color: white;
+    padding-left: 150px;
+    padding-top: 10px;
+}

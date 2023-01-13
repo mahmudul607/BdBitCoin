@@ -86,6 +86,7 @@ header .social-icon ul li {
 .nav-wrapper  .nav-btn,    #btn-all{
    display: flex;
    position: relative;
+   justify-content: center;
    text-transform: uppercase;
 }
 .nav-wrapper .nav-btn .btn-bg1,    #btn-all .btn-bg1 {

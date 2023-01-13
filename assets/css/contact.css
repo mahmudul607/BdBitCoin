@@ -7,18 +7,23 @@
 }
 .img{
     background-image: url("./bg-img/cnt1.png");
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 80%;
+    box-shadow: 10px 10px 10px goldenrod;
+    
     
 }
 .contact-section-body{
+   
     height: 600px;
     width: 100%;
     
 }
 .contact-card{
-    padding: 10% 0;
+    padding-top: 10%;
+    position: relative;
+    
 }
 .social-icon-links ul {
     display: flex;
@@ -30,10 +35,13 @@
 }
 .social-icon-links ul li i{
     font-size: 40px;
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+    transform: scale(0.8);
 }
 .social-icon-links ul li i:hover{
     color: black;
-    font-size: 50px;
+    transform: scale(1);
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
 }
 .contact-btn{
     width: 150px;
