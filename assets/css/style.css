@@ -28,7 +28,6 @@ header .social-icon ul {
    margin: 4px 4px;
 }
 header .social-icon ul li {
-   list-style: none;
    margin: 0 20px 0 20px;
    padding-bottom: 0;
 }
@@ -624,7 +623,7 @@ header .social-icon ul li {
    border-bottom: 1px dotted gray;
    padding-bottom: 10px;
    padding-top: 10px;
-   list-style: none;
+  
    
 }
 .main-wrapper .tab-content .tab-pane .left-side-tb1 .methods ul li::before{
@@ -987,7 +986,6 @@ section{
    font-size: 20px;
 }
 .team-members .t-card-footer ul li{
-   list-style: none;
    padding-top: 20px;
    position: relative;
    z-index: 5;
@@ -1192,7 +1190,6 @@ section{
 
 }
 .foter-section .social-link ul li{
-   list-style: none;
    margin-right: 20px;
    margin-left: 0;
    padding-top: 60px;
@@ -1218,7 +1215,6 @@ section{
    text-decoration: none;
 }
 .recent-post ul li{
-   list-style: none;
    text-align: left;
 }
 .recent-post ul li p{
@@ -1235,7 +1231,6 @@ section{
 
 }
 .quick-links li{
-   list-style: none;
    padding: 5px;
    border-bottom: 1px dotted lightgray;
 }
@@ -1255,4 +1250,6 @@ section{
 .marquee-row span{
    color: blue;
 }
-
+ul li{
+   list-style: none;
+}

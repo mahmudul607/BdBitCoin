@@ -1,0 +1,43 @@
+.top-div{
+    background-image: url("./bg-img/carousel3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.img{
+    background-image: url("./bg-img/cnt1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    
+}
+.contact-section-body{
+    height: 600px;
+    width: 100%;
+    
+}
+.contact-card{
+    padding: 10% 0;
+}
+.social-icon-links ul {
+    display: flex;
+}
+.social-icon-links ul li{
+    padding-right: 20px;
+    padding-top: 100px;
+    color: goldenrod;
+}
+.social-icon-links ul li i{
+    font-size: 40px;
+}
+.social-icon-links ul li i:hover{
+    color: black;
+    font-size: 50px;
+}
+.contact-btn{
+    width: 150px;
+    height: 30px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+}
