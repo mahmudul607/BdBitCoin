@@ -1,8 +1,9 @@
 .top-div{
-    background-image: url("./bg-img/carousel3.jpg");
+    background-image: url("./bg-img/cbg1.jpg");
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
+    height: 500px;
     
 }
 .img{
@@ -10,10 +11,12 @@
     background-position: left;
     background-repeat: no-repeat;
     background-size: 80%;
-    box-shadow: 10px 10px 10px goldenrod;
     
     
 }
+.nav-section .navbar .offcanvas-body{
+    background: rgb(236, 158, 32, 0.2) !important;
+ }
 .contact-section-body{
    
     height: 600px;

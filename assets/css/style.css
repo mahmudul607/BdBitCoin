@@ -66,7 +66,7 @@ header .social-icon ul li {
    font-weight: 700;
 } 
 .nav-section .navbar .offcanvas-body{
-   background: rgb(236, 158, 32, 0.7);
+   background: rgb(236, 158, 32, 0.6);
 }
 .nav-section .navbar .offcanvas-body .navbar-nav .nav-item .nav-link {
    text-transform: uppercase;
