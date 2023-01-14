@@ -82,6 +82,11 @@ header .social-icon ul li {
 .dropdown-toggle::after {
 	display: none !important;
 }
+.container-fluid .navbar-toggler {
+   margin-top: -50px;
+   background-color: yellow;
+  
+}
 
 .nav-wrapper  .nav-btn,    #btn-all{
    display: flex;
@@ -570,7 +575,6 @@ header .social-icon ul li {
       left: 0;
       right: 0;
       top: 0;
-      background-color: rgb(0, 0, 0, 0.3);
    
 }
 .main-wrapper .nav-tabs{
@@ -708,6 +712,7 @@ header .social-icon ul li {
    display: flex;
    flex-direction: row;
    padding: 50px;
+   height: 300px;
    background-color: #FFC40C;
    margin-right: 10px;
    position: relative;
@@ -905,7 +910,6 @@ header .social-icon ul li {
 /* section */
 
 section{
-   padding-top: 100px !important;
    padding-bottom: 100px !important;
 }
 /* =============Team Section Style ========== */
@@ -1239,9 +1243,11 @@ section{
    text-decoration: none;
    color: beige;
 }
-.quick-links h6{
+.quick-links p{
    padding-top: 80px;
    padding-left: 20px;
+   font-size: 10px;
+   color: gray;
 }
 .marquee-row{
    background-color: #FFC40C;
