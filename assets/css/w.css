@@ -1,10 +1,32 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 10px) and (max-width: 399.98px)   {  
+
+    /* Tab pane */
     .main-wrapper .tab-content .tab-pane .left-side-tb1 {
             
         width: 100%;
+        font-size: 5px;
         
     }
+    .main-wrapper .tab-content .tab-pane .left-side-tb1 .methods ul li{
+        padding-left: 10px;
+    }
+    .main-wrapper .tab-content .tab-pane .left-side-tb1 .methods ul li::before {
+        padding: 2px;
+        font-size: 7px;
+        margin-right: 4px; 
+    }
+    .main-wrapper .tab-content .tab-pane h1 span {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .main-wrapper .tab-content .tab-pane h1 {
+        font-size: 14px;
+    }
+    .main-wrapper .tab-content .tab-pane h2 span {
+        font-size: 10px;
+    }
+    /* // end tabe */
     .team-members .t-card::before {
        
         padding-top: 290%;
@@ -44,18 +66,45 @@
     header  {
         display: none;
     }
-  
     .main-wrapper .tab-content .tab-pane .pane-bottom .image {
-        padding-top: 10%;
+        padding-top: 60%;
+        left: 0;
     }
+    
+    .main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover::before {
+        left: 40% !important;
+        
+    }
+    .main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover .image {
+        left: -15px;
+    }
+   
+    .main-wrapper .tab-content .tab-pane .pane-bottom .image img{
+        width: 50%;
+        height: auto;
+        padding-left: 20px;
+    }
+   
     .main-wrapper .tab-content .tab-pane .pane-bottom .details {
        
         padding-left: 124px;
         margin-top: -103px;
+        font-size: 8px;
     }
+    .main-wrapper .tab-content .tab-pane .pane-bottom .changes{ 
+        padding: 0;
+        height: 300px;
+        margin-right: -12px;
+     }
     .pane-bottom .bb-response{
         width: 100%;
         margin-bottom: 10px;
+    }
+    .pane-bottom .bb-response .left-side{
+        height: 200px !important;
+    }
+    .pane-bottom .bb-response .right-side{
+        height: 200px !important;
     }
 
     .main-wrapper .counter-section .counter-area .item {
@@ -78,15 +127,7 @@
        section{
         margin-bottom: 10px;
        }
-       .main-wrapper .tab-content .tab-pane .pane-bottom .changes{
-       
-        
-        padding: 0;
-        height: 300px;
-        margin-right: -12px;
-       
-        
-     }
+      
      .foter-section .social-link{
         padding-left: 40px;
      }
@@ -109,25 +150,8 @@
         width: 100%;
         text-align: center !important;
     }
-    .main-wrapper .tab-content .tab-pane .pane-bottom .changes::before {
-        padding-top: 120%;
-    }
-    .main-wrapper .tab-content .tab-pane .pane-bottom .image {
-        padding-top: 30%;
-        left: 0;
-    }
-    
-    .main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover::before {
-        left: 40% !important;
-    }
-    .main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover .image {
-        left: -10px;
-    }
-    .main-wrapper .tab-content .tab-pane .pane-bottom .details {
-        padding-left: 120px;
-        margin-top: -188px;
-        font-size: 12px;
-    }
+   
+ 
     .main-cal{
         display: flex;
         flex-direction: column;

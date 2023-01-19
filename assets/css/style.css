@@ -5,12 +5,19 @@ body{
       margin: 0;
       border: 0;
       font-family: 'Raleway', sans-serif;
-
+      border: 1px solid red;
       --accent-color: #FFC40C;
       
     
 }
 
+
+.offcanvas-header {
+	background-color: gray;
+}
+.offcanvas-header img{
+   width: 100% !important;
+}
 
 header {
    display: flex;
@@ -46,15 +53,13 @@ header .social-icon ul li {
    float: left;
 
 }
-.main-wrapper .nav-wrapper{
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   z-index: 100;
-   position: sticky;
-   margin-top: 39px;
-   
-   
+.main-wrapper .nav-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	z-index: 100;
+	position: absolute;
+   width: 100%;
 }
 .nav-section .navbar .offcanvas{
    width: 70%;
@@ -83,7 +88,7 @@ header .social-icon ul li {
 	display: none !important;
 }
 .container-fluid .navbar-toggler {
-   margin-top: -50px;
+   
    background-color: yellow;
   
 }
@@ -234,7 +239,6 @@ header .social-icon ul li {
       
       position: relative;
       width: 100%;
-      margin-top: -105px;
       z-index: 1;
      
       
@@ -267,6 +271,7 @@ header .social-icon ul li {
       height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
+      background-attachment: fixed;
 
    }
    .carousel-section .carousel .carousel-inner .carousel-item .bg-item2 {
@@ -310,32 +315,33 @@ header .social-icon ul li {
    /* ========After Carousel Section */
    .main-wrapper .after-carousel-section{
       position: relative; 
+      
    }
    .after-carousel-section {
-      padding-top: 100px;
-      padding-bottom: 100px;
+      padding:4%;
+      
       background: rgb(233, 231, 231);
    }
-   .after-carousel-section .container{
+   .after-carousel-section {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
    
    }
-.after-carousel-section .container .area-1 p{
+.after-carousel-section  .area-1 p{
    font-size: 40px;
 
 }
 
-.after-carousel-section .container .area-2 p{
+.after-carousel-section  .area-2 p{
    font-size: 30px;
    font-weight: 700;
 }
-.after-carousel-section .container .area-3{
+.after-carousel-section  .area-3{
    width: 70%;
 }
-.after-carousel-section .container .area-3 p{
+.after-carousel-section  .area-3 p{
    text-align: center;
    color: darkgrey;
 
@@ -343,25 +349,26 @@ header .social-icon ul li {
    /* =========Card Style */
    .card-section{
       background: rgb(233, 231, 231);
-      padding-bottom: 100px;
+      padding:4%;
+      padding-bottom: 80px;
    }
-   .card-section .container .card:hover{
+   .card-section  .card:hover{
       box-shadow: 2px 2px 10px gray;
    }
-   .card-section .container .row .card-group{
+   .card-section  .row .card-group{
       position: relative;
    }
-   .card-section .container .row .card-group .card, .card-section .container .row .card-group .card .card-footer{
+   .card-section  .row .card-group .card, .card-section  .row .card-group .card .card-footer{
       border: none !important;
    }
-   .card-section .container .row .card-group .card{
+   .card-section  .row .card-group .card{
       padding-bottom: 10px;
    }
-   .card-section .container .row .card-group .card img,
-   .card-section .container .row .card-group .card .card-body{
+   .card-section  .row .card-group .card img,
+   .card-section  .row .card-group .card .card-body{
       z-index: 5;
    }
-   .card-section .container .row .card-group .card span::after{
+   .card-section  .row .card-group .card span::after{
          background-color: rgb(44 41 41 / 33%);
          content: "";
          height: 170px;
@@ -382,7 +389,7 @@ header .social-icon ul li {
       
    }
 
-   .card-section .container .row .card-group:hover .card span::after {
+   .card-section  .row .card-group:hover .card span::after {
       opacity: 1;
       filter: alpha(opacity=100);
       top: 0;
@@ -392,11 +399,14 @@ header .social-icon ul li {
 
 /* ====================== */
 /* ==========team Work Section======== */
-.team-work-section .container .row img{
+.team-work-section{
+   padding:4%;
+}
+.team-work-section  .row img{
    padding: 10px;
    width: 100%;
 }
-   .team-work-section .container .row .content{
+   .team-work-section  .row .content{
       display: flex;
       justify-content: center;
       padding-top: 10%;
@@ -404,44 +414,44 @@ header .social-icon ul li {
       position: relative;
    }
 
-.team-work-section .container .row .content .text-1{
+.team-work-section  .row .content .text-1{
    font-size: 35px;
    padding-bottom: 40px;
 }
-.team-work-section .container .row .content .text-2{
+.team-work-section  .row .content .text-2{
    font-size: 25px;
    padding-bottom: 20px;
 }
-.team-work-section .container .row .content .text-3{
+.team-work-section  .row .content .text-3{
    color: gray;
    padding-bottom: 20px;
 }
-.team-work-section .container .row .content .text-1 span{
+.team-work-section  .row .content .text-1 span{
    font-weight: 700;
 }
 /* =========================== */
 /* =============== */
 .secure-transactions-platform{
-   padding: 10px;
+   padding:4%;
    background: var(--accent-color);
 }
-.secure-transactions-platform .container{
+.secure-transactions-platform {
    padding-top: 100px;
 }
-.secure-transactions-platform .container .title-area span{
+.secure-transactions-platform  .title-area span{
    font-size: 25px;
 }
-.secure-transactions-platform .container .title-area h3{
+.secure-transactions-platform  .title-area h3{
    font-size: 35px;
    font-weight: 700;
    text-transform: uppercase;
 }
-.secure-transactions-platform .container .sector-bitcoin .sector-item{
+.secure-transactions-platform  .sector-bitcoin .sector-item{
    display: flex;
    flex-direction: column; 
    position: relative; 
 }
-.secure-transactions-platform .container .sector-bitcoin .sector-item .icon-wrapper{
+.secure-transactions-platform  .sector-bitcoin .sector-item .icon-wrapper{
   
   position: absolute;
   transition: 300ms;
@@ -449,14 +459,14 @@ header .social-icon ul li {
 
    
 }
-.secure-transactions-platform .container .sector-bitcoin .item-1 .icon-wrapper {
+.secure-transactions-platform  .sector-bitcoin .item-1 .icon-wrapper {
 	float: left;
 	margin: 0 20px 0 0;
 	top: 2px;
    position: relative;
    transition: 500ms;
 }
-.secure-transactions-platform .container .sector-bitcoin .item-1 .icon-wrapper img {
+.secure-transactions-platform  .sector-bitcoin .item-1 .icon-wrapper img {
 	margin: auto;
 	position: absolute;
 	bottom: 0;
@@ -468,7 +478,7 @@ header .social-icon ul li {
    transition: 1000ms ;
    
 }
-.secure-transactions-platform .container .sector-bitcoin .item-1:hover .icon-wrapper img {
+.secure-transactions-platform  .sector-bitcoin .item-1:hover .icon-wrapper img {
    
 	-webkit-transform: scale(0.75);
 	transform: scale(0.75);
@@ -476,7 +486,7 @@ header .social-icon ul li {
    
    
 }
-.secure-transactions-platform .container .sector-bitcoin .item-1:hover .icon-wrapper::before {
+.secure-transactions-platform  .sector-bitcoin .item-1:hover .icon-wrapper::before {
 	-webkit-transform: translate(-10px, 0);
 	transform: translate(-10px, 0);
    -webkit-transform: scale(3);
@@ -484,12 +494,12 @@ header .social-icon ul li {
    
   
 }
-.secure-transactions-platform .container .sector-bitcoin .item-1:hover .sector-content{
+.secure-transactions-platform  .sector-bitcoin .item-1:hover .sector-content{
    transform: translateY(10px);
    transition: 300ms;
 }
 
-.secure-transactions-platform .container .sector-bitcoin .item-1 .icon-wrapper {
+.secure-transactions-platform  .sector-bitcoin .item-1 .icon-wrapper {
 	height: 96px;
 	margin: 0;
 	width: 96px;
@@ -498,7 +508,7 @@ header .social-icon ul li {
 	transform: translate(-10px, 0);
    transition: 400ms;
 }
-.secure-transactions-platform .container .sector-bitcoin .item-1 .icon-wrapper::before{
+.secure-transactions-platform  .sector-bitcoin .item-1 .icon-wrapper::before{
  
       content: "";
       height: 100%;
@@ -520,12 +530,12 @@ header .social-icon ul li {
    
 }
 
-.secure-transactions-platform .container .sector-bitcoin .sector-item span{
+.secure-transactions-platform  .sector-bitcoin .sector-item span{
    font-size: 22px;
    font-weight: 700;
 
 }
-.secure-transactions-platform .container .sector-bitcoin .sector-item p{
+.secure-transactions-platform  .sector-bitcoin .sector-item p{
    font-size: 15px;
    color: gray;
 }
@@ -787,10 +797,15 @@ header .social-icon ul li {
    font-size: 60px;
 }
 /* ===========extra */
+.fixed{
+    position: fixed !important;
+    background-color: black;
+   
+}
 .sticky-top{
    height: 90px;
    background: rgb(39, 35, 35);
-   z-index: 1020;
+   z-index: 500;
    text-align: center;
 
 
@@ -849,6 +864,7 @@ header .social-icon ul li {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   padding: 3%;
 }
 .main-wrapper .converter-title-area{
    text-align: center;
@@ -865,8 +881,8 @@ header .social-icon ul li {
 .calculator .converter-form .offer-text{
    
    width: 70%;
-   padding-left: 100px;
-   color: white;
+   padding-left: 40px;
+   color: black;
    font-size: 25px;
 }
 .calculator .main-cal{
@@ -1012,14 +1028,12 @@ section{
    padding-left: 10px;
 }
 .buyBitCoin .left button::before{
+   
       content: "+";
-      font-size: 30px;
+      font-size: 15px;
       background-color: gray;
       border-radius: 50%;
-      height: 40px;
-      width: 40px;
-      padding-left: 10px;
-   
+      padding: 2%;
 }
 .buyBitCoin .left button::after{
    content: none !important;
@@ -1036,7 +1050,6 @@ section{
 }
 .accordion-button:not(.collapsed)::before{
    content: "-" !important;
-   padding-left: 14px !important;
    background-color: rgb(46, 40, 40) !important;
    color: red; 
 }
@@ -1244,9 +1257,9 @@ section{
    color: beige;
 }
 .quick-links p{
-   padding-top: 80px;
-   padding-left: 20px;
-   font-size: 10px;
+   padding-top: 60%;
+   padding-left: 0;
+   font-size: 17px;
    color: gray;
 }
 .marquee-row{

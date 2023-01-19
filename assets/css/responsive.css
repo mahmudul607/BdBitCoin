@@ -1,0 +1,247 @@
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 50px) and (max-width: 575.98px) {
+
+
+    .card-section .res-card{
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-section .navbar .offcanvas-body {
+        background-color: black;
+    }
+    .container-fluid .btn-area{
+        position: absolute;
+        top: 16%;
+        left: 39%;
+    }
+    .nav-wrapper .nav-logo img {
+        width: 200%;
+        float: right;
+    }
+    .container-fluid button {
+        
+        float: right;
+        margin-right: 0;
+        margin-left: 100px;
+    }
+    .nav-wrapper .nav-logo {
+        margin-left: 13%;
+    }
+    .card-section .res-card{
+        margin-bottom: 10px;
+    }
+    .card-section .row .card-group .card img{
+        padding-top: 0px!important;
+    }
+    .card-section .row .card-group:hover .card span::after {
+        
+        top: -45px;
+    }
+    .card-section .row .card-group .card img, .card-section .row .card-group .card .card-body {
+        font-size: 9px;
+    }
+    .main-wrapper .tab-content .tab-pane .left-side-tb1 {
+       
+        width: 100%;
+    }
+    .pane-bottom .bb-response  .image {
+        padding-top: 50% !important;
+    }
+    .pane-bottom .bb-response {
+        width: 100% !important;
+        margin-bottom: 10px;
+        padding-right: 0;
+    }
+    .tab-pane .pane-bottom{
+        margin-top: 10px;
+    }
+    .main-wrapper .counter-section .counter-area .item {
+        background: rgb(80, 62, 62, 0.0);
+        
+    }
+    .main-cal{
+        display: flex;
+        flex-direction: column;
+    }
+    .calculator{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .team-members .t-card::before {
+        padding-top: 260%;
+    }
+    .team-members .last-member-res{
+       width: 70% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .risk-section {
+        flex-direction: column;
+    }
+    .risk-section .left blockquote {
+        height: 50%;
+        width: 80%;
+    }
+    .risk-section .right img{
+        width: 300px;
+        height: 350px;
+    }
+    .subscribe-section .subscribe-title {
+        width: 100%;
+        text-align: center;
+    }
+    .subscribe-section .given-data {
+        width: 100%;
+        padding-left: 0;
+    }
+    .subscribe-area form {
+        padding-left: 5%;
+    }
+    .quick-links p {
+        padding-top: 20%;
+        font-size: 10px;
+    }
+    .secure-transactions-platform .title-area h3 {
+        font-size: 25px;
+    }
+    .secure-transactions-platform .title-area{
+        text-align: center;
+    }
+    .main-wrapper section {
+        padding-top: 5px;
+        
+    }
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+h2,h3, h4, h5, h6{
+        font-size: 10px;
+    }
+    .carousel-section .carousel .carousel-inner .title-carousel2 {
+       
+        background-size: 76%;
+    }
+    .container-fluid .nav-logo{
+        width: 100% !important;
+    }
+    .container-fluid .nav-logo img {
+        width: 28%;
+        padding: 5px;
+    }
+    .container-fluid .btn-area{
+        position: absolute;
+	    top: 10px;
+	    left: 65%;
+
+    }
+    .container-fluid{
+	
+	flex-wrap: wrap !important;
+}
+.card-section .res-card{
+    margin-bottom: 10px;
+}
+
+.tab-pane .mathods ol ul{
+    padding-left: 0;
+    
+}
+.main-wrapper .tab-content .tab-pane .left-side-tb1 .methods ul li {
+	font-size: 12px;
+}
+ .pane-bottom {
+    flex-direction: column!important;
+    
+}
+.pane-bottom .bb-response h1 {
+    font-size: 30px !important;
+}
+.pane-bottom .bb-response p{
+    font-size: 20px!important;
+}
+.pane-bottom .bb-response {
+    width: 100% !important;
+    margin-bottom: 10px;
+}
+.main-wrapper .counter-section .counter-area .item {
+	background: rgb(80, 62, 62, 0.0);
+	
+}
+.calculator .converter-form .offer-text {
+	width: 100%;
+	padding-left: 40px;
+	color: black;
+	font-size: 18px !important;
+	font-weight: 550;
+}
+.calculator .right-side img {
+	padding-top: 20%;
+}
+.team-members .t-card::before {
+	padding-top: 260%;
+}
+.google-map img{
+    width: 100%;
+    height: auto;
+
+}
+.BuyBitCoin .left{
+    width: 100%;
+}
+.container .risk-section .right img {
+    width: 100%;
+}
+.subscribe-area .subscribe-title{
+    width: 35%;
+}
+.subscribe-area .given-data{
+    width: 65%;
+}
+.subscribe-area form {
+	padding-left: 0%;
+}
+.quick-links p {
+	padding-top: 100%;
+	padding-left: 0px;
+	font-size: 17px;
+}
+.foter-section .left-section p{
+    font-size: 14px;
+}
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        h1, h2,h3, h4, h5, h6, p, blockquote, body{
+            font-size: 15px;
+        }
+
+        .main-wrapper .tab-content .tab-pane .pane-bottom .image { 
+            left: -15px;
+        }
+        .main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover .image {
+            left: -60px;
+        }
+        .bb-response{
+            height: 250px !important;
+        }
+        .main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover::before {
+            left: 30%;
+        }
+        .main-wrapper .tab-content .tab-pane .pane-bottom .changes::before {
+            padding-top: 70%;
+        }
+
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    h1, h2,h3, h4, h5, h6, p, blockquote, body{
+        font-size: 20px;
+    }
+
+}

@@ -12,14 +12,32 @@ $('.counter').counterUp({
 
 // ===========Sticky to=================//
 
+
 $(document).ready(function(){
    $(".after-carousel-section").waypoint(function (direction) {
       if(direction == "down"){
-        
-         $(".its").addClass("sticky-top");
+     
+
+         $(".its").addClass("fixed-top");
       }
       else{
-         $(".its").removeClass("sticky-top");
+         $(".its").removeClass("fixed-top");
+         
+
+      }
+      
+   });
+
+
+});
+$(document).ready(function(){
+   $(".after-carousel-section").waypoint(function (direction) {
+      if(direction == "down"){
+        $(".ad").addClass("fixed");
+      }
+      else{
+         $(".ad").removeClass("fixed");
+
       }
       
    });

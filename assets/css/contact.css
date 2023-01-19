@@ -2,10 +2,38 @@
     background-image: url("./bg-img/cbg1.jpg");
     background-position: center;
     background-size:cover;
+    height: 80vh;
     background-repeat: no-repeat;
-    height: 500px;
+    background-attachment: fixed;
     
 }
+
+
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomin {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+  } /*End of Zoom in Keyframes */
+  
+  /* Zoom out Keyframes */
+  @-webkit-keyframes zoomout {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.67);}
+    100% {transform: scale(1);}
+  }
+  @keyframes zoomout {
+      0% {transform: scale(1);}
+    50% {transform: scale(0.67);}
+    100% {transform: scale(1);}
+  }/*End of Zoom out Keyframes */
+  
 .img{
     background-image: url("./bg-img/cnt1.png");
     background-position: left;
@@ -14,6 +42,7 @@
     
     
 }
+
 .nav-section .navbar .offcanvas-body{
     background: rgb(236, 158, 32, 0.2) !important;
  }
