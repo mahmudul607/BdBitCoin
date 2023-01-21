@@ -5,12 +5,89 @@
     .card-section .res-card{
         margin-bottom: 10px;
     }
-    
+    .container-fluid .btn-area{
+       display: none !important;
+    }
+    .nav-wrapper .nav-logo img {
+        width: 200%;
+    }
+    .main-wrapper .counter-section .counter-area .item {
+        background: rgb(80, 62, 62, 0.0);
+        
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+       
+        justify-content: inherit !important;
+    }
+    .nav-wrapper .nav-logo {
+        float: left;
+        width: 30%;
+        height: 69%;
+        padding-left: 10px;
+    }
+    .btn-close {
+        
+        width: 0.5rem;
+        height: 0.5rem;
+        padding: .10em .10em;
+      
+      
+    }
+    .container-fluid .navbar-toggler{
+        padding: 1%;
+    }
+    .navbar-toggler-icon {
+        float: right;
+        background-size: 70% !important;
+    }
+    .after-carousel-section .area-1 p{
+        font-size: 1.2rem;
+    }
+    .after-carousel-section .area-2 p{
+        font-size: 0.8rem;
+    }
+    .after-carousel-section .area-3 p{
+        font-size: 0.7rem;
+    }
+    .card-section .res-card{
+        width: 70%;
+        margin:auto auto;
+    }
+    .card-section .res-card .py-5 {
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+    .card-section .row .card-group .card span::after {
+       
+        height: 120px;
+        width: 120px;
+     
+    }
+    .card-section .row .card-group:hover .card span::after {
+        top: -35px;
+       
+    }
+    .card-img, .card-img-bottom, .card-img-top {
+	width: 70% !important;
+	margin-left: 15% !important;
+	
+}
+.card-section .card-group .card .card-body p{
+    font-size: 80%;
+}
+.card-section .card-group .card .card-body h5{
+    font-size:80%;
+}
+.card-section .card-group .card .card-body h4{
+    font-size:0.8rem;
+}
+   
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+   
     .nav-section .navbar .offcanvas-body {
         background-color: black;
     }
@@ -80,6 +157,9 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .team-members .res-mid{
+        width: 50% !important;
+    }
     .risk-section {
         flex-direction: column;
     }
@@ -116,10 +196,14 @@
         padding-top: 5px;
         
     }
+    .foter-section .disclaimer{
+        font-size: 10px;
+    }
 
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
+    
 h2,h3, h4, h5, h6{
         font-size: 10px;
     }
@@ -217,6 +301,7 @@ h2,h3, h4, h5, h6{
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    
         h1, h2,h3, h4, h5, h6, p, blockquote, body{
             font-size: 15px;
         }
@@ -240,6 +325,7 @@ h2,h3, h4, h5, h6{
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1200px) and (max-width: 1400px) {
+    
     h1, h2,h3, h4, h5, h6, p, blockquote, body{
         font-size: 20px;
     }

@@ -8,6 +8,7 @@ body{
       border: 1px solid red;
       --accent-color: #FFC40C;
       
+      
     
 }
 
@@ -59,7 +60,6 @@ header .social-icon ul li {
 	align-items: center;
 	z-index: 100;
 	position: absolute;
-   width: 100%;
 }
 .nav-section .navbar .offcanvas{
    width: 70%;
@@ -100,7 +100,7 @@ header .social-icon ul li {
    text-transform: uppercase;
 }
 .nav-wrapper .nav-btn .btn-bg1,    #btn-all .btn-bg1 {
-   margin-right: 5px;
+   /* margin-right: 5px; */
    padding: 10px;
    /* background: #FFC40C; */
 
@@ -111,7 +111,7 @@ header .social-icon ul li {
 
 .nav-wrapper .btn-area .btn1{
    background: gray;
-   margin-right: 5px;
+   /* margin-right: 5px; */
    margin-bottom: 1px;
    z-index: 1;
 }
@@ -267,7 +267,7 @@ header .social-icon ul li {
       
    }
    .carousel-section .carousel .carousel-inner .carousel-item .bg-img{
-      background-position: center;
+      background-position: center center;
       height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1272,4 +1272,19 @@ section{
 }
 ul li{
    list-style: none;
+}
+/* overflow style */
+.main-wrapper{
+   overflow: hidden;
+}
+.nav-wrapper{
+   overflow: hidden;
+   
+}
+.main-wrapper .carousel-section #carouselExampleFade1{
+   overflow: hidden !important;
+   width: 100% !important;
+}
+.main-wrapper .carousel-section #carouselExampleFade1 .carousel-inner{
+   overflow: hidden;
 }
