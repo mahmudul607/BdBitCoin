@@ -92,8 +92,212 @@
 .main-wrapper .ttop{
     flex-direction: column-reverse;
 }
+.team-work-section .content .text-1{
+    font-size: 22px !important;
+}
+.team-work-section .content .text-2{
+    font-size: 20px !important;
+}
+.team-work-section .content .text-3{
+    font-size: 12px !important;
+}
+.team-work-section .content .btn {
+    font-size: 11px  !important;
+    
+}
+#btn-all {
+	width: 95px;
+}
+.secure-transactions-platform .title-area span{
+    font-size: 20px;
+}
+.secure-transactions-platform .title-area h3{
+    font-size: 20px;
+}
+.secure-transactions-platform {
+	padding-top: 30px;
+}
+.secure-transactions-platform .sector-bitcoin .sector-item p {
+	font-size: 13px;
+}
+.secure-transactions-platform .sector-bitcoin .sector-item span {
+	font-size: 16px;
+}
+.main-wrapper .tab-content .tab-pane .left-side-tb1 {
+	width: 100%;
+}
+.main-wrapper .tab-content .tab-pane .left-side-tb1 .methods ul li {
+	font-size: 10px;
+}
+.main-wrapper .tab-content .tab-pane .left-side-tb1 .methods ul{
+	padding-left: 10px !important;
+}
+.main-wrapper .tab-content .tab-pane h1 {
+	font-size: 20px;
+}
+.main-wrapper .tab-content .tab-pane h1 span {
+	font-size: 16px;
+}
+.main-wrapper .tab-content .tab-pane h2 span {
+	font-size: 15px;
+}
+.main-wrapper .tab-content .tab-pane .left-side-tb1 .methods {
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+.main-wrapper .tab-content {
+	text-align: center;
+}
 
-   
+
+.main-wrapper .tab-content .tab-pane .pane-bottom .image {
+	padding-top: 8%;
+	width: 100%;
+}
+
+.main-wrapper .tab-content .tab-pane .pane-bottom .details {
+	width: 100%;
+}
+.pane-bottom .bb-response{
+    margin-bottom: 10px;
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .changes {
+	
+	margin-right: 1px;
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .changes {
+	
+	margin-left: 1px;
+}
+.pane-bottom .bb-response .image img{
+    width: 100%;
+
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .details {
+	font-size: 10px;
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .changes::before {
+	display: none;
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .changes:hover .image {
+	left: 0;
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .details {
+	
+	padding-left: 0;
+
+}
+.pane-bottom .bb-response .image img {
+	width: 50%;
+	padding-bottom: 5%;
+}
+.nav-tabs .tab-pane .pane-top{
+    margin-bottom: 60px;
+}
+.main-wrapper .tab-content .tab-pane .pane-bottom .changes {
+	
+	padding: 5%;
+	
+}
+.letest-news-section .item #btn-all{
+    width: 100px;
+}
+.letest-news-section .item #btn-all a{
+    font-size: 12px;
+}
+.calculator .converter-form .offer-text {
+	width: 95%;
+	padding-left: 20px;
+	font-size: 12px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.main-cal{
+    display: flex;
+    flex-direction: column;
+}
+.risk-section {
+	flex-direction: column;
+}
+.risk-section .right img{
+    width: 100%;
+}
+.risk-section .left{
+    width: 80%;
+}
+.risk-section .left blockquote {
+	width: 360px;
+	float: right;
+	padding-top: 5px;
+	color: white;
+}
+.subscribe-section .subscribe-title{
+    text-align: center;
+}
+.subscribe-area form {
+	
+	padding-left: 0;
+}
+.subscribe-section .given-data .frm .btn{
+    width: 80px!important;
+    font-size: 10px;
+    padding-left:2px;
+}
+.foter-section .left-section p{
+    font-size: 12px;
+}
+.foter-section .left-section h3 {
+	padding-top: 15px;
+}
+.foter-section .social-link ul{
+    margin-left: 0px;
+    padding-left: 0px !important;
+}
+.foter-section .recent-post ul{
+    padding-left: 0px!important;
+    font-size: 12px;
+}
+.foter-section {
+	
+	padding: 2%;
+}
+.foter-section .disclaimer small {
+	font-size: 0.6em;
+}
+.quick-links p {
+	padding-top: 30%;
+	font-size: 12px;
+	
+}
+.risk-section .left blockquote h5 {
+	padding-top: 57px;
+	padding-left: 27px;
+	width: 214px;
+	font-size: 9px;
+}
+.risk-section .left blockquote {
+	width: 100%;
+	
+}
+.risk-section .left blockquote::before {
+	
+	height: 220px;
+	width: 220px;
+	
+}
+.risk-section .left blockquote p {
+	padding-left: 25px;
+	width: 225px;
+	font-size: 12px;
+}
+.main-wrapper .counter-section .counter-area .item .inner-screen {
+	padding-bottom: 30px;
+}
+
+
 }
 
 
@@ -138,8 +342,8 @@
        
         width: 100%;
     }
-    .pane-bottom .bb-response  .image {
-        padding-top: 50% !important;
+    .pane-bottom .bb-response .image {
+        padding-top: 50%;
     }
     .pane-bottom .bb-response {
         width: 100% !important;
@@ -316,6 +520,10 @@ h2,h3, h4, h5, h6{
     
         h1, h2,h3, h4, h5, h6, p, blockquote, body{
             font-size: 15px;
+        }
+        .main-wrapper .tab-content .tab-pane .pane-bottom .changes {
+            height: 300px;
+            
         }
 
         .main-wrapper .tab-content .tab-pane .pane-bottom .image { 
