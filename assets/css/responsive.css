@@ -18,6 +18,7 @@
     .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
        
         justify-content: inherit !important;
+    
     }
     .nav-wrapper .nav-logo {
         float: left;
@@ -35,11 +36,14 @@
     }
     .container-fluid .navbar-toggler{
         padding: 1%;
+        
     }
     .navbar-toggler-icon {
         float: right;
         background-size: 70% !important;
+        
     }
+    
     .after-carousel-section .area-1 p{
         font-size: 1.2rem;
     }
@@ -81,6 +85,14 @@
 .card-section .card-group .card .card-body h4{
     font-size:0.8rem;
 }
+.main-wrapper .top-row {
+	align-items: center !important;
+	justify-content: center !important;
+}
+.main-wrapper .ttop{
+    flex-direction: column-reverse;
+}
+
    
 }
 

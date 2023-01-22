@@ -60,6 +60,7 @@ header .social-icon ul li {
 	align-items: center;
 	z-index: 100;
 	position: absolute;
+   width: 99%;
 }
 .nav-section .navbar .offcanvas{
    width: 70%;
