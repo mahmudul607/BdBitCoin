@@ -8,6 +8,7 @@
    <title>BitCoinBd</title>
    <link rel="stylesheet" href="assets/css/style.css">
    <link rel="stylesheet" href="./assets/css/guide.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
    <!-- Carousel Styles -->
    <link rel="stylesheet" href="assets/vendors/vcss/owl.carousel.min.css">
    <link rel="stylesheet" href="assets/vendors/vcss/owl.theme.default.min.css">
@@ -42,15 +43,15 @@
 <body>
    <div class="main-section main-wrapper">
       <div class="top-of-Guide">
-         <div class="nav-wrapper its">
-            <div class="container row ">
+         <div class="nav-wrapper ad its">
+            <div class="row ">
                <!-- <div class="logo col-md-3 col-sm-12"> -->
 
                <!-- </div> -->
                <!-- <div class="col-md-6 col-sm-12"> -->
                <div class="nav-section">
 
-                  <nav class="navbar navbar-expand-lg">
+                  <nav class="navbar navbar-expand-md">
                      <div class="container-fluid">
                         <div class="nav-logo"><img src="assets/img/logo.png" alt=""></div>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -60,18 +61,20 @@
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                            aria-labelledby="offcanvasNavbarLabel">
                            <div class="offcanvas-header">
-                              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/img/logo.png"
+                                    alt="">
+                              </h5>
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                  aria-label="Close"></button>
                            </div>
                            <div class="offcanvas-body">
                               <ul id="navitems" class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                  <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                                  </li>
                                  <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                       aria-expanded="false">
+                                       aria-expanded="true">
                                        Pages
                                     </a>
                                     <ul class="dropdown-menu">
@@ -100,7 +103,7 @@
 
                            </div>
                         </div>
-                        <div class="btn-area d-flex">
+                        <div id="res-btn-top" class="btn-area d-flex">
                            <div class="nav-btn btn1">
                               <a class="btn-bg1 "><span class="fa-solid fa-vector-square"></span> widgets</a>
                            </div>
@@ -119,31 +122,60 @@
                <!-- </div> -->
             </div>
          </div>
+
+
          <h3 id="bitcoin-guide">BitCoin Guide</h3>
       </div>
 
-      <div class="container">
-         <div class="buy-section">
-            <div class="col-md-6 col-sm-12" >
-                <h2>We help you to buy Bitcoin and</h2>
-                <h1>IN THREE EASY STEPS</h1>
-                <div id="buy-left">
 
-                </div>
-                <div class ="buy-left">
-
-                </div>
-                <div class ="buy-left">
-
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12"></div>
+      <div class="buy-section">
+         <div class="left-buy col-md-6 col-sm-12">
+            <h2>We help you to buy Bitcoin and</h2>
+            <h1>IN THREE EASY STEPS</h1>
+            <div class="buy-left">
+               <div class="items">
+                  <div class="serial"><h1>1</h1></div>
+               <div class="text">
+                  <h2>Sign Up</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+               </div>
+               </div>
+               <div class="items">
+                  <div class="serial"><h1>2</h1></div>
+               <div class="text">
+                  <h2>Deposit Money</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+               </div>
+               </div>
+               <div class="items">
+                  <div class="serial"><h1>3</h1></div>
+               <div class="text">
+                  <h2>Buy BitCoin</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+               </div>
+               </div>
+            </div> 
          </div>
-
+         <div class="col-md-6 col-sm-12">
+            <div class="i-phone-carousel">
+               <div class="bg-i-phone">
+                     <div class="owl-carousel">
+                        <div> <img src="./assets/img/ui1.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div > <img src="./assets/img/ui2.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div> <img src="./assets/img/ui3.jpg" class="d-block w-100" alt="">
+                        </div>
+                     </div>
+               </div>
+            </div>
+         </div>
       </div>
 
-        <!--Subscribe section-->
-        <div class="subscribe-section">
+
+
+      <!--Subscribe section-->
+      <div class="subscribe-section">
          <div class="container">
             <div class="row subscribe-area">
                <div class="subscribe-title col-md-3 col-sm-12">
@@ -152,7 +184,8 @@
                </div>
                <div class="given-data col-md-9 col-sm-12 ">
                   <form action="" class="frm">
-                     <input type="email" class="input-box" placeholder="Enter your Email to get latest update from us" style="text-align: center;">
+                     <input type="email" class="input-box" placeholder="Enter your Email to get latest update from us"
+                        style="text-align: center;">
                      <input type="submit" id="btn-all" class="btn-bg1 btn">
                   </form>
                </div>
@@ -219,7 +252,7 @@
                   <p>@ 2022 BitCoin. All rights reserved</p>
                </div>
             </div>
-            <div class="row">
+            <div class="row disclaimer">
                <h2>Disclaimer</h2>
                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis nisl porttitor,
                      eleifend tortor sed, auctor libero. Proin quis purus eu mi fermentum blandit. Nam eget nisi ipsum.
@@ -241,6 +274,7 @@
                DASH: £ 39.16 <span>(3.74 %)</span> </marquee>
          </div>
       </div>
+
       <!--End footer section-->
 
 
@@ -268,6 +302,31 @@
 
    <!-- Aos Animation js linked -->
    <script>
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2200,
+    autoplayHoverPush:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            loop:true
+        },
+        600:{
+            items:1,
+           loop:true
+        },
+        1000:{
+            items:1,
+            loop:true
+        }
+    }
+})
+
 
    </script>
    <!-- Main Js Linked -->

@@ -10,3 +10,85 @@
     padding-left: 150px;
     padding-top: 10px;
 }
+
+/* i-Phone bg carousel */
+.buy-section{
+    display: flex;
+}
+.buy-section .i-phone-carousel{
+    width: 500px;
+    height: 600px;
+    margin: 5%;
+    
+}
+.buy-section .i-phone-carousel .bg-i-phone{
+    background-image: url("./bg-img/iphone-trans-mask.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 19%;
+    overflow: hidden;
+   
+}
+.buy-section .i-phone-carousel .bg-i-phone .owl-carousel{
+    margin-top: 5%;
+    padding: 10%;
+    overflow: hidden;
+    padding-right: 12%;
+}
+.buy-section .i-phone-carousel .bg-i-phone .owl-carousel img{
+
+    height:440px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+	display: none;
+}
+
+.buy-section .left-buy{
+    margin:2%;
+}
+.buy-section .buy-left .items{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 2%;
+    background-color: lightcyan;
+    padding: 1;
+}
+.buy-section .buy-left .items{
+    display: flex;
+    padding: 5%;
+}
+.buy-section .buy-left .items .serial{
+    width: 20%;
+}
+.buy-section .buy-left .items .text{
+    width: 80%;
+}
+.buy-section .buy-left .items .serial::before{
+    content: "";
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: 10;
+    background-color: yellow;
+    border-radius: 50%;
+    left: 6.5%;
+}
+.buy-section .buy-left .items .serial h1{
+    position: relative;
+    z-index: 100;
+    opacity: 2;
+    text-align: center;
+    margin: 0;
+    padding: 12px;
+    
+}
+.buy-section .buy-left .items::before{
+    content: "";
+    height:100%
+}
+.buy-section .buy-left .items:hover{
+    background-color: goldenrod;
+    transition: 900ms;
+    transform: rotateY(360deg)
+}
