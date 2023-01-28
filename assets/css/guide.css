@@ -1,14 +1,17 @@
 .top-of-Guide{
-    background-image: url("./bg-img/counter-bg.jpg");
+    background-image: url("./bg-img/guide-bg2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
 }
 #bitcoin-guide{
     color: white;
-    padding-left: 150px;
-    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+
+    /* padding-left: 150px;
+    padding-top: 100px; */
 }
 
 /* i-Phone bg carousel */
@@ -89,6 +92,14 @@
 }
 .buy-section .buy-left .items:hover{
     background-color: goldenrod;
-    transition: 900ms;
-    transform: rotateY(360deg)
+   transition: 1500ms;
+    
+}
+.buy-section .buy-left .items:hover .serial::before{
+    background-color: black;
+    transition: 1500ms;
+   transform: rotateY(360deg);
+}
+.buy-section .buy-left .items:hover h1{
+    color: gold;
 }
